@@ -11,9 +11,9 @@ public class Inquiry {
 	private String email;
 	private String contents;
 	private LocalDateTime created;
-	
+
 	public Inquiry() {};
-	
+
 	public Inquiry(int id, String name, String email, String contents, LocalDateTime created) {
 		super();
 		this.id = id;
@@ -51,7 +51,7 @@ public class Inquiry {
 	public LocalDateTime getCreated() {
 		return created;
 	}
-	public void setCreated(LocalDateTime created) {
-		this.created = created;
+	public void setCreated(LocalDateTime timestamp) {
+		this.created = timestamp;
 	}
 }
